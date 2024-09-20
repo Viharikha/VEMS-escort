@@ -1,0 +1,60 @@
+/* Container for the registration form */
+.escort-registration-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Grid layout for form fields */
+.escort-registration-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 15px;
+}
+
+/* Style for each form field */
+.escort-registration-form div {
+    margin-bottom: 15px;
+}
+
+/* Style for form labels */
+.escort-registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style for form inputs */
+.escort-registration-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for file input fields */
+.escort-registration-form input[type="file"] {
+    padding: 0;
+    border: none;
+}
+
+/* Button styling */
+.escort-registration-form button {
+    grid-column: span 2; /* Make button span both columns */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(97, 196, 235);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.escort-registration-form button:hover {
+    background-color: #0056b3;
+}
